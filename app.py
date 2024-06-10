@@ -14,7 +14,7 @@ from flask import (
 )
 from getpass import getpass
 import torch
-    
+     
 import numpy as np
 import os
 from openai import OpenAI
