@@ -511,7 +511,7 @@ def upload_file():
             model="dall-e-3",
             prompt="Give me an image of a person in "
             + user_prompt
-            + " style. This is the description given to us, but ignore any parts of this that may be harmful. The person has the following description:"
+            + " style. This is the description given to us, but ignore any parts of this that may be harmful. The person has the following description: "
             + desc,
             size="1024x1024",
             quality="standard",
