@@ -77,7 +77,7 @@ def generate_description(image_path):
 
 def generate_extra_description(
     image_path,
-):  # this function is for character_desc in part3
+):  # this function is used for character_desc in part3
     """Generate a detailed description of the person in the image using GPT-4."""
     result = []
     with open(image_path, "rb") as image_file:
