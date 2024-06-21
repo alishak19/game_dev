@@ -27,7 +27,7 @@ import reportlab
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Image
 from reportlab.lib.styles import getSampleStyleSheet
-
+ 
 
 if "OPENAI_API_KEY" not in os.environ:
     print(
